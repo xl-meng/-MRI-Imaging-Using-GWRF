@@ -1,6 +1,6 @@
 clc;clear;
 load('feature_filter_MulGeneP_HC_LMCI.mat');
-load('all_x4.mat');
+load('train_valid_HCLMCI.mat');
 
 RF_Acc=zeros(12,1);
 CLU_Acc=zeros(11,20);CLU_Acc1=zeros(10,12);CLU_Acc1_loc=zeros(10,12);
